@@ -1,0 +1,168 @@
+a:hover{
+  background-color: #AFD3E2
+}
+
+h1{
+  margin:0 auto;
+}
+
+body{
+  margin:0;
+}
+.top-container{
+  margin: 0;
+  padding-top: 1px;
+  padding-bottom: 0.2px;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  background-color: #569DAA;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.hoverr{
+color:#11999E;
+margin: 10px 40px 10px 40px;
+text-decoration: none;
+}
+.hoverr:hover{
+  color:#EAF6F6
+}
+
+
+.second-top-container{
+
+  padding-top: 5px;
+    display: inline-block;
+
+}
+
+.search-bar{
+  border-style: solid;
+  font-size:18 px;
+  padding-right:400px;
+  position: relative;
+  bottom:20px;
+
+}
+
+.acc-img{
+  padding-left:50px;
+  padding-right:5px;
+  position: relative;
+  bottom:7px;
+  float:left;
+}
+
+#second-top-container, #my-account{
+  display:inline-block;
+}
+
+.my-account{
+  position: relative;
+  bottom:20px;
+  padding-left: 0;
+}
+
+.acc-link{
+  ackground-color: white;
+text-decoration: none;
+  border-style: outset;
+  border:none;
+  font-family: "Roboto";
+}
+.acc-link:hover{
+  color:#62CDFF;
+  background-color: white;
+  text-decoration: none;
+
+}
+#buy-cart{
+  display:inline-block;
+}
+
+.cart-button{
+  border: none;
+  background: none;
+padding-left: 100px;
+  position: relative;
+  bottom:15px
+}
+
+.buy-button{
+  font-size: 22px;
+  font-family: "outset";
+  color:#62CDFF;
+  padding-right: 40px;
+  padding-bottom: : 140px;
+  padding-top: 20px;
+  text-align: left;
+
+  border: none;
+
+  background: white;
+  cursor: pointer;
+}
+.fa fa-shopping-cart{
+}
+
+.nav-item dropdown:hover .navbar-brand{
+  display: block;
+}
+
+
+
+#box {
+  padding:5px;
+  width:200px;
+  z-index:10;
+  position:relative;
+}
+#box form {
+ background:#006699;
+ padding:5px;
+ display:none;
+ position:absolute;
+ top:27px;
+}
+#button {
+  width:75px;
+  background:#006699;
+  color:#fff;
+  padding:3px 10px;
+  border:1px solid #006699;
+  margin-bottom:15px;
+  cursor:pointer;
+}
+input[type="submit"] {
+  background:none;
+  color:#fff;
+  border:none;
+  text-align:left;
+  cursor:pointer;
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
